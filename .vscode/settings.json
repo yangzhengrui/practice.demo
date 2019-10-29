@@ -1,0 +1,10 @@
+{
+    "java.home": "D:\\Program Files\\Java\\jdk1.8.0_162",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "java.configuration.updateBuildConfiguration": "interactive"
+}
