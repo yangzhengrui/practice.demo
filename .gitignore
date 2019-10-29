@@ -1,8 +1,4 @@
-practice/.settings/org.eclipse.core.resources.prefs
-practice/.settings/org.eclipse.jdt.apt.core.prefs
-practice/.settings/org.eclipse.jdt.core.prefs
-practice/.settings/org.eclipse.m2e.core.prefs
-practice/target/classes/com/practice/App.class
-practice/target/test-classes/com/practice/AppTest.class
+practice/.settings/*
 practice/.classpath
 practice/.project
+practice/target/*
