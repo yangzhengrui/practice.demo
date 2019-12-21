@@ -4,12 +4,20 @@ package com.practice.regex;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 public class RegexTest
 {
     @Test
     public void RegexMatchTest(){
+        String retest = "^\\d{4}(-|/)(([1-9])|(0([1-9]))|(1(0|1|2)))(-|/)(([1-9])|(0[1-9])|([1-2][0-9])|(3[0-1]))$";
+        for (String s : new String[]{"2019-11-01", "2019-1-01", "2019-5-01", "2019-5-10", "2019-5-20", "2019-2-29", "2019-5-30"}) {
+            if (!s.matches(retest)) {
+                System.out.println("测试失败: " + s);
+                return;
+            }
+        }
+        
         String re = "^[0]\\d{2,3}\\-[1-9]\\d{6,7}$";
         for (String s : new String[]{"010-12345678", "020-9999999", "0755-7654321"}) {
             if (!s.matches(re)) {

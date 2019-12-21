@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.Base64;
 import java.net.URLDecoder;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 /**
  * URL编码和Base64编码都是编码算法，它们不是加密算法；

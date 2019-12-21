@@ -9,7 +9,7 @@ import java.time.Period;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.TemporalAdjusters;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 /**
  * Java 8引入了新的日期和时间API，它们是不变类，默认按ISO 8601标准格式化和解析；
