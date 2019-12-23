@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ThreadPoolDemo",
+            "request": "launch",
+            "mainClass": "com.practice.threaddemo.ThreadPoolDemo",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ThreadPoolTest",
+            "request": "launch",
+            "mainClass": "com.practice.treaddemo.ThreadPoolTest",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - App",
             "request": "launch",
             "mainClass": "com.practice.App"
