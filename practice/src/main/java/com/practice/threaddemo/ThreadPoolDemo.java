@@ -13,7 +13,7 @@ import java.util.concurrent.TimeUnit;
  */
 public class ThreadPoolDemo {
     public static void main(String[] args) {
-        // fixedThreadPoolDemo();
+        fixedThreadPoolDemo();
         scheduledThreadPoolDemo();
     }
 
