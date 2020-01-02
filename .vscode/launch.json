@@ -2,6 +2,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - UDPClient",
+            "request": "launch",
+            "mainClass": "com.practice.netdemo.UDPClient",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - UDPServer",
+            "request": "launch",
+            "mainClass": "com.practice.netdemo.UDPServer",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Client",
+            "request": "launch",
+            "mainClass": "com.practice.netdemo.Client",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Server",
+            "request": "launch",
+            "mainClass": "com.practice.netdemo.Server",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ForkJoinDemo",
             "request": "launch",
             "mainClass": "com.practice.threaddemo.ForkJoinDemo",
