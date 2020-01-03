@@ -2,6 +2,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - JacksonJsonDemo",
+            "request": "launch",
+            "mainClass": "com.practice.xmldemo.JacksonJsonDemo",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - JacksonDemo",
+            "request": "launch",
+            "mainClass": "com.practice.xmldemo.JacksonDemo",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SAXDemo",
+            "request": "launch",
+            "mainClass": "com.practice.xmldemo.SAXDemo",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DocumentDemo",
+            "request": "launch",
+            "mainClass": "com.practice.xmldemo.DocumentDemo",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - UDPClient",
             "request": "launch",
             "mainClass": "com.practice.netdemo.UDPClient",

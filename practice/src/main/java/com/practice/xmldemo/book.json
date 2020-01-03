@@ -1,0 +1,7 @@
+{
+    "id": 1,
+    "name": "Java核心技术",
+    "author": "abc",
+    "isbn": "1234567",
+    "tags": ["Java", "Network"]
+}
