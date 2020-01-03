@@ -32,13 +32,13 @@ public class TreadTest {
     @Test
     public void TreadDemoTest() {
         //方法一
-        Thread thread = new MyThread();
+        final Thread thread = new MyThread();
         thread.start();
         //方法二
-        Thread thread2 = new Thread(new MyRunnable());
+        final Thread thread2 = new Thread(new MyRunnable());
         thread2.start();
         //方法三  jdk8 lambda
-        Thread thread3=new Thread(()->{
+        final Thread thread3=new Thread(()->{
             System.out.println("start new thread by labmda!");
         });
         thread3.start();
