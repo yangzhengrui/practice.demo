@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - JdbcQueryDemo",
+            "request": "launch",
+            "mainClass": "com.practice.jdbcdemo.JdbcQueryDemo",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - JacksonJsonDemo",
             "request": "launch",
             "mainClass": "com.practice.xmldemo.JacksonJsonDemo",
