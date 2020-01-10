@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Phone",
+            "request": "launch",
+            "mainClass": "com.practice.designdemo.Phone",
+            "projectName": "practice"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - LambdaDemo",
             "request": "launch",
             "mainClass": "com.practice.lambdademo.LambdaDemo",
